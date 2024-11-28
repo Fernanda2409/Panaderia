@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario de Panadería</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <nav class="inicio">
+        <h1 class="h1-inicio">PANADERIA LA DESESPERANZA</h1>
+    </nav>
+    <div class="div-img">
+        <table>
+            <tr>
+                <td class="h2-img">
+                    <h2>"La Desesperanza, donde cada bocado es una esperanza renovada."</h2>
+                </td>
+                <td>
+                    <img src="https://img.freepik.com/fotos-premium/variedad-colorida-rollos-pan-panes_1092689-53888.jpg">
+                </td>
+            </tr>
+        </table>
+    </div>
+       
+    <h1>Inventario de Panadería</h1>
+
+    <div class="form-container">
+        <h2>Agregar Nuevo Pan</h2>
+        <form id="panForm">
+            <input type="text" id="nombre" placeholder="Nombre del pan" required>
+            <input type="text" id="descripcion" placeholder="Descripción" required>
+            <input type="number" id="precio" placeholder="Precio" required>
+            <input type="number" id="stock" placeholder="Stock" required>
+            <input type="text" id="imagen" placeholder="URL de la Imagen" required>
+            <select id="categoria" required>
+                <option value="Día de Muertos">Día de Muertos</option>
+                <option value="Halloween">Halloween</option>
+            </select>
+            <button type="submit">Agregar Pan</button>
+        </form>
+    </div>
+
+    <div id="panList" class="pan-list"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

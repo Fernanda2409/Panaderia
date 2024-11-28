@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d7fdde; 
+    color: #5a3921; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #2a6541; 
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+
+}
+.div-img {
+    background-color: #ffffff; 
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    align-items: end;
+}
+h1 {
+    margin-top: 20px;
+    color: #6B8E23; 
+    font-size: 50px;
+}
+.h1-inicio {
+    margin-top: 20px;
+    color: #ffffff; 
+    font-size: 50px;
+}
+.h2-img{
+    margin-top: 20px;
+    color: #264809; 
+    font-size: 40px;
+    align-items: center;
+}
+.form-container, .pan-list {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.form-container {
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form input, form select, form button {
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #d9c7b3; 
+}
+
+
+button {
+    cursor: pointer;
+    background-color: #A9BA9D; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #6B8E23; 
+}
+
+
+.pan {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #d9c7b3; 
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+}
+
+.pan:hover {
+    transform: translateY(-5px); 
+}
+
+.pan img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.pan .pan-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #6B8E23; 
+    margin-top: 10px;
+}
+
+.pan .pan-description {
+    color: #5a3921; 
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.pan .pan-stock {
+    color: #A9BA9D; 
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+a {
+    color: #6B8E23; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #D27B4B; 
+}
